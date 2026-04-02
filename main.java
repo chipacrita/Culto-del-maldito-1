@@ -1,8 +1,20 @@
 
+import java.util.Scanner;
+
+
 public class main{
 
     public static void main(String[] args) {
-        System.out.println("HOLA MUNDO");
+        String nombre;
+        Scanner entrada=new Scanner(System.in);
+
+        System.out.println("Ingrese su nombre: ");
+        nombre=entrada.nextLine();
+
+        System.out.println("El nombre ingresado es: "+nombre);
+        
+
+
 
     }
 }
